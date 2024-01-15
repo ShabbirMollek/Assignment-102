@@ -53,7 +53,7 @@ main{
 }
 
 .banner-1{
-                height: 100vh; 
+                height: 90vh; 
                 width: 100%;
                 display: flex;
                 flex-direction: column;
@@ -68,6 +68,7 @@ main{
                 color: #FFF;
                font-size: 4rem;
                font-weight: 700;
+               margin-top: 50px;
 
 }
 .banner-1 p{
