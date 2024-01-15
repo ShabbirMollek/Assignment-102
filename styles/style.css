@@ -124,3 +124,41 @@ main{
 .search i {
                 margin-left: -20px;
 }
+/* banner two style */
+
+.banner-2{
+                display: flex;
+                margin-top: 40px;
+                justify-content: space-between;
+                height: 60vh;
+}
+.banner-2-img{
+                width: 540px;
+                height: 550px;
+                border-radius: 16px;
+               
+
+}
+.banner-content-2{
+                width: 50%;
+}
+.banner-2 h2 {
+                color: #131318;
+                text-align: start;
+                font-size: 2.4rem;
+                font-weight: 800;
+                margin-bottom: 20px;
+                 
+}
+.banner-2 p{
+                color: rgba(19, 19, 24, 0.70);
+                font-size: 1.2rem;
+                font-weight: 400;
+                line-height: 26px;
+                margin-bottom: 20px;
+}
+.banner-content-2 > ul >li{
+                list-style: disc;
+                color:rgba(19, 19, 24, 0.70) ;
+                margin-bottom: 20px;
+}
