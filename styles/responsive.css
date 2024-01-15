@@ -1,0 +1,95 @@
+@media  screen and (max-width:600px) {
+                header {
+                                margin: 0 10px; 
+                }
+                        
+                .header-content {
+                                gap: 5px; 
+                }
+                        
+                .logo {
+                                gap: 3px;
+                }
+                .hide{
+                                display: none;
+                }
+                        
+                nav > ul {
+                                flex-direction: column; 
+                }
+                        
+                li {
+                                margin: 0;
+                                margin-top: 5px; 
+                                font-size: 1.1rem; 
+                }
+                 main {
+                                margin: 0 10px; 
+                }
+                .banner-1{
+                                height: 70vh;
+                }
+                .banner-1 input{
+
+                                width: 250px;
+                                height: 46px;
+                                border-radius: 8px;
+                                background: #FFF;
+                                border: 1px solid white;
+                                font-size: 1rem;
+                                margin-bottom: 20px;
+                                color: gray;
+                                font: 18px;
+                                font-weight: 500;
+                }      
+                .banner-1 h1 {
+                                font-size: 2rem;
+
+                }
+                        
+                .banner-1 p {
+                                font-size: 0.9rem; 
+                                line-height: 18px;
+                                margin-top: 10px;
+                }
+                        
+                .banner-content {
+                                margin-top: 40px; 
+                }
+                        
+                .search {
+                                padding: 35px;
+                                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                                height: 50%;
+                                width: 80%;
+                                margin-top: 100px;
+                                
+                               
+                               
+                }
+                .search input{
+                                display: flex;
+                                flex-direction: column;
+                               
+                                
+                }
+                .btn-primary{
+                                margin-top: 10px;
+                                width: 250px;
+                                height: 46px;
+                                font-size: 18px;
+                                color: black;
+                                font-weight: 500;
+                }
+                #hide{
+                                display: none;
+                }
+                
+                        
+              
+
+
+
+
+              
+}

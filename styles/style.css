@@ -53,9 +53,8 @@ main{
 }
 
 .banner-1{
-                height: 80vh;
+                height: 100vh; 
                 width: 100%;
-              
                 display: flex;
                 flex-direction: column;
                 background: linear-gradient(rgba(0, 0, 0, 0.707), rgba(255, 255, 255, 0)), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
