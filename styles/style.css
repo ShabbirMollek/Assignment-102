@@ -175,7 +175,9 @@ main{
 
 .banner-3{
             margin-top: 40px;  
-            text-align: center;  
+            text-align: center; 
+            height: 100vh; 
+            
 }  
 
 .banner-3 h2{
@@ -198,7 +200,7 @@ main{
 .img-2{
                 display: flex;
                 justify-content: center;
-                gap: 20px;
+                gap: 10px;
              
 }
 .img-2  p{
