@@ -112,8 +112,11 @@
                         
                  .banner-content-2 > ul > li {
                                 margin-bottom: 8px; 
+                                
+                }
+                li{
                                 padding: 15px;
-                                list-style: disc;
+                                list-style-type: disc;
                 }
                 .btn-secondary{
                                 width: 160px;
