@@ -13,6 +13,11 @@ header{
 
                
 }
+.menu-bar{
+  display: none;
+  
+
+}
 .header-content{
                 margin-top: 20px;
                 display: flex;

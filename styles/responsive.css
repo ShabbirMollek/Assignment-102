@@ -84,6 +84,11 @@
                 #hide{
                                 display: none;
                 }
+                .menu-bar{
+                              display:block;  
+
+                }
+
                 .banner-2 {
                                 margin-top: 10px;
                                 flex-direction: column;
@@ -257,7 +262,7 @@
                                
                                 flex-direction: column;
                                 margin-bottom: 60px;
-                                border: 2px solid red;
+                               
                 }
                         
                 .banner-content-5 {
@@ -278,7 +283,7 @@
                                 margin-bottom: 8px;
                 }
                 .btn-secondary{
-                                margin-left:-16px ;
+                               
                                 margin-bottom: 20px;
                 }
 
