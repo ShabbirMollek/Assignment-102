@@ -1,6 +1,6 @@
 @media  screen and (max-width:600px) {
                 header {
-                                margin: 0 10px; 
+                                margin: 0 45px; 
                 }
                         
                 .header-content {
@@ -24,10 +24,10 @@
                                 font-size: 1.1rem; 
                 }
                  main {
-                                margin: 0 10px; 
+                                margin: 0 45px; 
                 }
                 .banner-1{
-                                height: 600px;
+                                height: 75vh;
                 }
                 .banner-1 input{
 
@@ -87,10 +87,14 @@
                 .banner-2 {
                                 margin-top: 10px;
                                 flex-direction: column;
+                               
                 }
                         
                 .banner-content-2 {
-                                width: 90%;
+                                max-width: 100%;
+                                margin-left: 0px;
+                                margin-right: 0px;
+
                 }
                         
                 .banner-2-img {
@@ -104,18 +108,21 @@
                                 margin-bottom: 8px;
                 }
                         
-                 .banner-2 p {
+                .banner-2 p {
                                 font-size: 1.2rem;
                                 line-height: 25px;
                                 margin-bottom: 8px;
+                                padding: 10px;
+                                color: black;
                 }
                         
                  .banner-content-2 > ul > li {
                                 margin-bottom: 8px; 
+                                padding: 0;
                                 
                 }
                 li{
-                                padding: 15px;
+                                padding: 25px;
                                 list-style-type: disc;
                 }
                 .btn-secondary{
@@ -128,11 +135,11 @@
 
                 }
                 .banner-3 {
-                                margin-top: 620px;
+                                margin-top: 30px;
                 }
                         
                 .banner-3 h2 {
-                                font-size: 24px;
+                                font-size: 26px;
                 }
                         
                 .banner-3 p {
@@ -141,26 +148,33 @@
                                 margin-bottom: 10px;
                 }
                 .banner-3 img{
-                                width: 100%;
-                                /* height: 100%; */
-                               
+                                max-width: 100%;
+                                height: auto;            
                 }
                 .img-2{
-                                flex-direction: column;
-                                padding: 0;
-                                margin-top: 20px; 
-                                gap: 0;             
+                                /* flex-direction: column; */
+                                display: grid;
+                                grid-template-columns: repeat(1,1fr);
+                                margin-top: 20px;
+                                max-height: auto; 
+                                margin-bottom: 60px;
+                                         
                               
                 }
               
                 .img-3{
-                                flex-direction: column;
-                                padding: 0;
-                                gap: 0px;
+                                /* flex-direction: column; */
+                                /* max-height: auto;  */
+                                max-width: 100%;
+                                display: grid;
+                                grid-template-columns: repeat(1,1fr);
+                               
                 }
                 .img-4{
-                                flex-direction: column;
-                                padding: 0;
+                                display: grid;
+                                grid-template-columns: repeat(1,1fr);
+                              
+                                margin-top: 0px;
                                 
                 }
                 .img-2 p{
@@ -177,18 +191,17 @@
                 } 
                 .img-4 p{
                                 position:relative;
-                                bottom: 120px; 
+                                bottom: 110px; 
                                 font-size: 24px;
                                 color: #f0f0f4; 
                 } 
-                .img-5{
-                          margin-top: -35px;      
-                }
-                .img-6{
-                          height: 70%;      
-                }
-                .banner-content-4 {
-                                margin-top: 1320px
+               
+                .banner-4 {
+                                /* margin-top: 1320px */
+                                /* max-width: 100%; */
+                               
+                
+                
                 }
                         
                 .banner-4 h2 {
@@ -203,27 +216,48 @@
                 }
                         
                 .pink {
-                                gap: 10px;
+                                gap: 20px;
                                 flex-direction: column;
+                               
+                                
                                 
                 }
+                .pink-1 ,.pink-2,.pink-3{
+                                height: auto;
+                                max-width: 100%;
+                                text-align: start;
+                }
+                .pink-1,
+                .pink-2,
+                .pink-3 h2{
+                                font-size: 24px;
+                                font-weight: 500px;
+                }
+                .pink-1,
+                .pink-2,
+                .pink-3 p{
+                                font-size: 14px;
+                                font-weight: 500px;             
+                }
+
                         
                 .pink-1,
-                            .pink-2,
-                            .pink-3 {
-                                padding-top: 35px;
-                                margin-top: 10px;
-                                align-items: center;
+                .pink-2,
+                .pink-3 {
+                               
+                               
+                                align-items: start;
+                                
+
                                 
                 }
                         
-                .pink-3 {
-                                margin-left: 0;
-                }
-                .banner-5 {
-                                margin-top: 420px;
-                                flex-direction: column-reverse;
+                
+                .banner-5 { 
+                               
+                                flex-direction: column;
                                 margin-bottom: 60px;
+                                border: 2px solid red;
                 }
                         
                 .banner-content-5 {
@@ -231,7 +265,7 @@
                 }
                         
                 .banner-5 h2 {
-                                font-size: 1.6rem; 
+                                font-size: 1.8rem; 
                                 line-height: 30px; 
                                 margin-top: 20px;
                                 margin-bottom: 10px;
@@ -242,6 +276,10 @@
                                 font-size: 16px; 
                                 line-height: 20px;
                                 margin-bottom: 8px;
+                }
+                .btn-secondary{
+                                margin-left:-16px ;
+                                margin-bottom: 20px;
                 }
 
                         

@@ -1,14 +1,14 @@
 *{
                 margin: 0px;
-                padding: 0;
+                padding: 0 ;
                 box-sizing: border-box;
                 font-family: 'Mulish', sans-serif;
-                max-width: 100%;
+                
 }
 
 header{
-                margin: 0 140px;
-                height: 10vh;
+                margin: 0 120px;
+                height: 6vh;
               
 
                
@@ -49,12 +49,12 @@ li{
 
 /* banner section style */
 main{
-                margin: 0 140px;
+                margin: 0 120px;
 }
 
 .banner-1{
-                height: 90vh; 
-                width: 100%;
+                height: 75vh; 
+               
                 display: flex;
                 flex-direction: column;
                 background: linear-gradient(rgba(0, 0, 0, 0.707), rgba(255, 255, 255, 0)), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
@@ -63,12 +63,13 @@ main{
                 background-position: center;
                 background-size: cover;
                 align-items: center;
+                justify-content: center;
 }
 .banner-1 h1{
                 color: #FFF;
-               font-size: 4rem;
-               font-weight: 700;
-               margin-top: 50px;
+                font-size: 4rem;
+                font-weight: 700;
+               
 
 }
 .banner-1 p{
@@ -81,17 +82,16 @@ main{
                 
                 text-align: center;
                 align-items: center;
-                margin-top: 220px;            
+                           
 
 }
 
 .search{
               
                 display: flex;
+                gap: 10px;
                 justify-content: space-around;
-                height: 80px;
-                padding: 20px;
-                /* From https://css.glass */
+                padding: 25px;
                 background: rgba(255, 255, 255, 0.2);
                 border-radius: 8px;
                 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -99,13 +99,15 @@ main{
                 -webkit-backdrop-filter: blur(5px);
                 border: 1px solid rgba(255, 255, 255, 0.3);
                 margin-top: 40px;
-                align-items: center;
+                /* align-items: center; */
                
 }
 .banner-1 input{
 
+               
+               
                 width: 160px;
-                height: 46px;
+                height: 40px;
                 border-radius: 8px;
                 background: #FFF;
                 border: 1px solid white;
@@ -114,7 +116,7 @@ main{
 }
 .btn-primary{
                 width: 160px;
-                height: 46px;
+                height: 40px;
                 border-radius: 8px;
                 background: #FF5400;
                 border: none;
@@ -127,27 +129,34 @@ main{
 /* banner two style */
 
 .banner-2{
+
+
+   
                 display: flex;
                 margin-top: 40px;
                 justify-content: space-between;
-                height: 60vh;
+                align-items: center;
+                
 }
-.banner-2-img{
-                width: 540px;
-                height: 550px;
+
+.banner-2 img{
+                max-width: 100%;
+                height: auto;
                 border-radius: 16px;
                
 
 }
 .banner-content-2{
-                width: 50%;
+                max-width: 50%;
+                height: auto;
 }
 .banner-2 h2 {
                 color: #131318;
                 text-align: start;
                 font-size: 2.4rem;
                 font-weight: 800;
-                margin-bottom: 20px;
+                padding-left: 10px;
+               
                  
 }
 .banner-2 p{
@@ -156,11 +165,13 @@ main{
                 font-weight: 400;
                 line-height: 26px;
                 margin-bottom: 20px;
+                padding-left: 10px;
 }
 .banner-content-2 > ul >li{
                 list-style: disc;
                 color:rgba(19, 19, 24, 0.70) ;
                 margin-bottom: 20px;
+                margin-left: 20px;
 }
 .btn-secondary{
                 width: 160px;
@@ -169,15 +180,16 @@ main{
                 background: #FF5400;
                 border: none;
                 font-size: 1rem;
+                margin-left: 10px;
 
 }
   /* banner-3 style  */
 
 .banner-3{
             margin-top: 40px;  
-            text-align: center; 
-            height: 100vh; 
-            margin-bottom: 60px;
+            text-align: center;  
+            margin-bottom: 0px;
+            max-width: 100%;
             
 }  
 
@@ -187,6 +199,7 @@ main{
                 font-style: normal;
                 font-weight: 800;
                 line-height: normal;
+                
 }
 .banner-3  p{
              
@@ -202,6 +215,8 @@ main{
                 display: flex;
                 justify-content: center;
                 gap: 10px;
+                max-width: 100%;
+                height: auto;
              
 }
 .img-2  p{
@@ -215,7 +230,11 @@ main{
                 display: flex;
                 justify-content: center;
                 gap: 10px;
-                margin-top: -20px;
+                margin-top: -60px;
+                max-width: 100%;
+                height: auto;
+                
+               
 }
 .img-3 p{
                 position: relative; 
@@ -227,7 +246,9 @@ main{
                 display: flex;
                 justify-content: center;
                 gap: 10px;
-                margin-top: -20px;     
+                margin-top: -60px;   
+                max-width: 100%;  
+                height: auto;
 }
 .img-4 p{
                 position: relative; 
@@ -239,14 +260,15 @@ main{
 /* banner-4 style */
 .banner-4{
     
-  text-align: center; 
-  height: 80vh; 
+  text-align: center;  
   margin-bottom: 60px;
+  max-width: 100%;
   
 }
 
 .banner-content-4{
-  margin-top: 250px;
+  max-width: 100%;
+  /* margin-top: 250px; */
 }
 .banner-4  h2{
   color: #131318;
@@ -268,9 +290,12 @@ main{
 }
 .pink{
   display: flex;
-  gap: 40px;
+  
+  gap: 20px;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
+  height: auto;
 }
 .pink-1{
   width: 575px;
@@ -297,25 +322,25 @@ main{
   border: 1px solid rgba(233, 68, 68, 0.20);
   background: rgba(233, 68, 68, 0.05);
   padding: 15px;
-  margin-top: 30px;
-  margin-left:520px;
+  
+  
   
 }
 
 /* banner-5 style */
 
 .banner-5{
-  display: flex;
-  margin-top: 40px;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 60vh;
+                display: flex;
+                margin-top: 40px;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 100%;
 }
 .banner-content-5{
   display: flex;
   align-items: start;
   flex-direction: column;
-  width: 60%;
+  max-width: 100%;
 }
 .banner-5 h2{
   color: #131318;
@@ -341,3 +366,4 @@ main{
   line-height: 26px; 
   margin-bottom: 20px;
 }
+
