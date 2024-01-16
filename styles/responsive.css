@@ -90,7 +90,7 @@
                 }
                         
                 .banner-content-2 {
-                                width: 100%;
+                                width: 90%;
                 }
                         
                 .banner-2-img {
@@ -188,37 +188,61 @@
                           height: 70%;      
                 }
                 .banner-content-4 {
-                                margin-top: 1220px
-                            }
+                                margin-top: 1320px
+                }
                         
-                            .banner-4 h2 {
+                .banner-4 h2 {
                                 font-size: 1.8rem;
-                            }
+                                margin-bottom: 10px;
+                }
                         
-                            .banner-4 p {
+                .banner-4 p {
                                 font-size: 12px; 
                                 line-height: 18px;
-                                margin-bottom: 8px; 
-                            }
+                                margin-bottom: 28px; 
+                }
                         
-                            .pink {
+                .pink {
                                 gap: 10px;
                                 flex-direction: column;
                                 
-                            }
+                }
                         
-                            .pink-1,
+                .pink-1,
                             .pink-2,
                             .pink-3 {
                                 padding-top: 35px;
                                 margin-top: 10px;
                                 align-items: center;
                                 
-                            }
+                }
                         
-                            .pink-3 {
+                .pink-3 {
                                 margin-left: 0;
-                            }
+                }
+                .banner-5 {
+                                margin-top: 420px;
+                                flex-direction: column-reverse;
+                                margin-bottom: 60px;
+                }
+                        
+                .banner-content-5 {
+                                width: 90%; 
+                }
+                        
+                .banner-5 h2 {
+                                font-size: 1.6rem; 
+                                line-height: 30px; 
+                                margin-top: 20px;
+                                margin-bottom: 10px;
+                }
+                        
+                .banner-5 p,
+                .banner-5 li {
+                                font-size: 16px; 
+                                line-height: 20px;
+                                margin-bottom: 8px;
+                }
 
                         
                           
