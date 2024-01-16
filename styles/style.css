@@ -335,17 +335,17 @@ main{
 /* banner-5 style */
 
 .banner-5{
-                display: flex;
-                margin-top: 40px;
-                justify-content: space-between;
-                align-items: center;
-                max-width: 100%;
+                
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  align-items: center;
 }
 .banner-content-5{
-  display: flex;
-  align-items: start;
-  flex-direction: column;
-  max-width: 100%;
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                max-width: 100%;
 }
 .banner-5 h2{
   color: #131318;
@@ -372,3 +372,78 @@ main{
   margin-bottom: 20px;
 }
 
+/* banner 6 style */
+.banner-6{
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+
+}
+.banner-content-6{
+  width: 480px;
+  height: 420px;
+  border-radius: 16px;
+  border: 1px solid #FF5400;
+  text-align: start;
+  padding: 20px;
+  
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.banner-6 input{
+width: 393px;
+height: 52px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: 1px solid gray;
+margin-top: 20px;
+font-size: 16px;
+
+}
+.btn-tertiary{
+  width: 393px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+margin-top: 20px;
+border:none;
+font-size: 16px;
+}
+.banner-content-6 h2{
+  color: #131318;
+
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.banner-content-6 p{
+  color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+
+.offer{
+  width: 224px;
+height: 80px;
+transform: rotate(-40deg);
+flex-shrink: 0;
+border-radius: 16px;
+background: #FF5400;
+text-align: center;
+position: relative;
+bottom: 160px;
+left: 210px;
+
+
+}
