@@ -213,7 +213,7 @@ main{
 .img-3{
                 display: flex;
                 justify-content: center;
-                gap: 20px;
+                gap: 10px;
                 margin-top: -20px;
 }
 .img-3 p{
@@ -225,7 +225,7 @@ main{
 .img-4{
                 display: flex;
                 justify-content: center;
-                gap: 20px;
+                gap: 10px;
                 margin-top: -20px;     
 }
 .img-4 p{
