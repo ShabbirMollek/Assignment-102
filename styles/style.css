@@ -301,3 +301,43 @@ main{
   margin-left:520px;
   
 }
+
+/* banner-5 style */
+
+.banner-5{
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60vh;
+}
+.banner-content-5{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 60%;
+}
+.banner-5 h2{
+  color: #131318;
+
+  font-size: 40px;
+
+  font-weight: 800;
+  line-height: 60px; 
+}
+.banner-5 p{
+  color: #5A5A5D;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 26px; 
+ margin-bottom: 20px;
+}
+.banner-5 li {
+  list-style: disc;
+  color: #131318;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px; 
+  margin-bottom: 20px;
+}
